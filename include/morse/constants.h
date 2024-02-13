@@ -1,0 +1,13 @@
+#ifndef CDEV_MORSE_CONSTANTS_H
+#define CDEV_MORSE_CONSTANTS_H
+
+#include "types.h"
+
+#define MORSE_SEPARATOR_LENGTH 3
+#define MORSE_LETTER_LENGTH 7 + MORSE_SEPARATOR_LENGTH
+#define MORSE_NUMBER_LENGTH 9 + MORSE_SEPARATOR_LENGTH
+
+extern const morse_char_t MORSE_LETTERS[];
+extern const morse_char_t MORSE_NUMBERS[];
+
+#endif // !CDEV_MORSE_CONSTANTS_H
